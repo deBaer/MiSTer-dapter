@@ -2,6 +2,7 @@
 
 # MiSTer'dapter
 A VGA and audio jack to RGB SCART converter with RCA sync or composite output for the MiSTer FPGA
+
     Copyright (C) 2022 Simon Kowalewski
 
     This program is free software; you can redistribute it and/or modify
@@ -22,9 +23,9 @@ A VGA and audio jack to RGB SCART converter with RCA sync or composite output fo
 [YouTube](https://youtu.be/DpnR34e562k) (Spoken languague is German, English subtitles will be available)
 	
 ## Build yourself
-You'll need the [board] manufactured on 1.6 mm substrate. Also, you'll need a fitting SCART, VGA, RCA and mini phone jack. (I'll add links later.) You'll also need a 470 ohm resistor for attenuating the sync signal to SCART-safe levels and, optionally but recommended, a capacitor and inductance for the luma trap. I use 22 uH and 68 pF. If you don't use C1 and L1, bridge C1 with a resistor leg.
+You'll need the [board](board) manufactured on 1.6 mm substrate. Also, you'll need a fitting SCART, VGA, RCA and mini phone jack. (I'll add links later.) You'll also need a 470 ohm resistor for attenuating the sync signal to SCART-safe levels and, optionally but recommended, a capacitor and inductance for the luma trap. I use 22 uH and 68 pF. If you don't use C1 and L1, bridge C1 with a resistor leg.
 
-Optionally, 3D-print the [case]. If you can multi-color print, print case.stl and print.stl together in different colors. If you cannot, don't print print.stl. If you want to use the case, populate the jumpers on the back side of the PCB (the side without silkscreen print).
+Optionally, 3D-print the [case](case). If you can multi-color print, print case.stl and print.stl together in different colors. If you cannot, don't print print.stl. If you want to use the case, populate the jumpers on the back side of the PCB (the side without silkscreen print).
 
 ## Buy from me
 I don't have a web shop right now, so just send a mail to deBaer@gmail.com and tell me how many kits you want (15 €/kit), your preferred jumper color (black, white, blue, red, green and yellow available), if I should solder and test them for you (+10 €/kit), if you want cases (+10 €/case) and your post address (postage is 2€ flat for Germany, I'll calculate the International postage on demand). I'll send you a confirmation with the expected delivery date, the final price and payment information, most likely Paypal. If you cannot or don't want to use Paypal, also indicate that in your email. Use a subject header containing "[daptor]" so I'll see the mail.
