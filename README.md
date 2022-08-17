@@ -39,9 +39,21 @@ Connect the MiSTer'daptor to your MiSTer with a normal VGA cable.
 ### RGB SCART
 Connect the MiSTer'daptor to your TV with a RGB-capable SCART cable (not all are). For audio, connect the MiSTer'daptor with a normal TRS mini jack cable to the MiSTer. Optionally, connect Guncon 2 or other controllers that need sync to the RCA jack. Use these .ini settings:
 
-(coming soon)
+```
+forced_scandoubler=0
+ypbpr=0 
+composite_sync=1
+vga_scaler=0
+```
+
 
 ### Composite
 Connect the MiSTer'daptor RCA plug to a composite input (normally yellow) on the TV. Connect the MiSTer audio out directly to the TV. You need to use [Y/C-capable cores](https://github.com/MikeS11/MiSTerFPGA_YC_Encoder). Use these .ini settings:
 
-(coming soon)
+```
+forced_scandoubler=0
+ypbpr=0 
+composite_sync=1
+vga_scaler=0
+vga_sog=1
+```
