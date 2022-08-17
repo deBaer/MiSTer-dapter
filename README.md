@@ -48,7 +48,7 @@ vga_scaler=0
 
 
 ### Composite
-Connect the MiSTer'daptor RCA plug to a composite input (normally yellow) on the TV. Connect the MiSTer audio out directly to the TV. You need to use [Y/C-capable cores](https://github.com/MikeS11/MiSTerFPGA_YC_Encoder). Use these .ini settings:
+Connect the MiSTer'daptor RCA plug to a composite input (normally yellow) on the TV. Connect the MiSTer audio out directly to the TV. You need to use [Y/C-capable cores](https://github.com/MikeS11/MiSTerFPGA_YC_Encoder) and switch to Y/C video mode in the core config dialog. Use these .ini settings:
 
 ```
 forced_scandoubler=0
