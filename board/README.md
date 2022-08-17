@@ -19,4 +19,4 @@ A VGA and audio jack to RGB SCART converter with RCA sync or composite output fo
     with this program; if not, write to the Free Software Foundation, Inc.,
     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-This board was created in KiCAD 6. Source files as well as ready-for-production (I use JLCPCB) files are in this directory. For more information, see the [top directory](..).
+This board was created in KiCAD 6. Source files as well as ready-for-production (I use JLCPCB) files are in this directory. For more information, see the [top directory](https://github.com/deBaer/MiSTer-dapter).
