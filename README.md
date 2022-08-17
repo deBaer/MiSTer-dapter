@@ -20,7 +20,7 @@ A VGA and audio jack to RGB SCART converter with RCA sync or composite output fo
     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 ## Video demonstration
-[YouTube](https://youtu.be/DpnR34e562k) (Spoken languague is German, English subtitles will be available)
+[YouTube](https://youtu.be/DpnR34e562k) (Spoken languague is German, English subtitles are available)
 	
 ## Build yourself
 You'll need the [board](board) manufactured on 1.6 mm substrate. Also, you'll need a fitting SCART, VGA, RCA and mini phone jack. (I'll add links later.) You'll also need a 470 ohm resistor for attenuating the sync signal to SCART-safe levels and, optionally but recommended, a capacitor and inductance for the luma trap. I use 33 uH and 68 pF. If you don't use C1 and L1, bridge C1 with a resistor leg.
