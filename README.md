@@ -36,6 +36,8 @@ If you offer to sell MiSTer'dapter kits, I'll list you here. Non-EU sellers are 
 ## Usage
 Connect the MiSTer'daptor to your MiSTer with a normal VGA cable.
 
+Note: For the Guncon 2 or any other lightguns to work, the video has to go directly from the core to the CRT. No `vga_scaler`, no `scandoubler`! Also, no plasma, LCD, OLED! It may work with `direct_video` over the HDMI port, but that depends on both the device as well as the settings.
+
 ### RGB SCART
 Connect the MiSTer'daptor to your TV with a RGB-capable SCART cable (not all are). For audio, connect the MiSTer'daptor with a normal TRS mini jack cable to the MiSTer. Optionally, connect Guncon 2 or other controllers that need sync to the RCA jack. Use these .ini settings:
 
